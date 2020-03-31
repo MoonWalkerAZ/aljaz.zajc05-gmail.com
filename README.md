@@ -1,3 +1,8 @@
 # Python Gui unittest
-GUI za izbiro unittest-ov v Python-u
-![GitHub Logo](/zaslonske_slike/globalni_test.png)
+
+V sklopu dela v podjetju sem naredil grafični vmesnik za izvajanje unittestov.
+As Kanye West said:
+
+> We're living the future so
+> the present is our past.
+![Globalni Test 1](/zaslonske_slike/globalni_test.png)
