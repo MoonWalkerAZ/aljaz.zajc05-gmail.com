@@ -19,7 +19,7 @@ Ob zagonu programa se odpre grafično okolje. Pred testiranjem moremo izbrati ma
 
 * Če kliknemo na posamičen test lahko podrobno pregledamo napako tega testa.
 
-<img src="/zaslonske_slike/podrobna_napaka.png" width="600">
+<img src="/zaslonske_slike/podrobna_napaka.png" width="700">
 
 * Posamični testi oz. izbira določenih testov, ki se nahajajo v class-u.
 
