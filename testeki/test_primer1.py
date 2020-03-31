@@ -5,7 +5,7 @@ import collections
 import time
 import asyncio
 
-class TestVisaMethods(unittest.TestCase):
+class TestseEn(unittest.TestCase):
 
     @classmethod
     def setUpClass(self):
@@ -15,20 +15,17 @@ class TestVisaMethods(unittest.TestCase):
     def tearDownClass(self):
         pass
 
-    @unittest.skip("demonstrating skipping")
-    def test_upper(self):
-        time.sleep(1)
+    def test_zgoraj(self):
+        time.sleep(0.5)
+        self.assertEqual('foo'.upper(), 'FOO')
 
-        self.assertEqual('foo2'.upper(), 'FOO')
-
-    def test_isupper(self):
-        self.assertTrue('FOO'.isupper())
+    def test_alizgoraj(self):
         self.assertFalse('Foo'.isupper())
 
-    def test_split(self):
-        time.sleep(1.2)
+    def test_narazen(self):
+        time.sleep(0.2)
         s = 'hello world'
-        self.assertEqual(s.split(), ['hello2', 'world'])
+        self.assertEqual(s.split(), ['hello', 'world'])
         # check that s.split fails when the separator is not a string
         with self.assertRaises(TypeError):
             s.split(2)

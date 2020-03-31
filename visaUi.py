@@ -208,7 +208,7 @@ class Ui_MainWindow(QObject):
 
     def retranslateUi(self, MainWindow):
         _translate = QtCore.QCoreApplication.translate
-        MainWindow.setWindowTitle(_translate("MainWindow", "EMA - TestJig GUI"))
+        MainWindow.setWindowTitle(_translate("MainWindow", "Unittest GUI"))
         self.selectedTestLabel.setText(_translate("MainWindow", "Mapa ni izbrana !"))
         self.chooseFolder.setText(_translate("MainWindow", "Izberi mapo"))
         self.globalTestButton.setText(_translate("MainWindow", "Zaženi globalni test"))
