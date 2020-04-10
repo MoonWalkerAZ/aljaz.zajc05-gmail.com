@@ -4,7 +4,7 @@ V sklopu dela v podjetju sem naredil grafični vmesnik za izvajanje unittestov.
 Kratka navodila uporabe:
 
 * Poskrbimo, da imamo nameščene vse knjižnice, ki so vključene v projektu
-* Zaženemo file mainRunner.py z Python 3.7
+* Zaženemo file mainRunner.py z Python 3.7 (ukaz `python mainRunner.py`)
 * Nato se prikaže grafični vmesnik
 
 Ob zagonu programa se odpre grafično okolje. Pred testiranjem moremo izbrati mapo v kateri se nahajajo unittesti. To storimo tako, da kliknemo na gumb izberi mapo. Ko to izberemo se nam izpiše njena pot, ter ozadje se obarva zeleno. To lahko vidimo na spodnji sliki.
